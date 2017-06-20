@@ -1,0 +1,45 @@
+
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.navbar .nav > li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+    font-size: 175%;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.middle {
+    color: black;
+    font-size: 175%;
+    font-weight: 500;
+    padding-left: 18.5%;
+}
+
+
+#ezTitle{
+  margin: 0 auto;
+  letter-spacing: 4px;
+  padding-bottom: 2%;
+  padding-right: 1%
+}
+
+.ezLogo {
+  margin: 0 auto;
+  width: 16%;
+  height: auto;
+  display: flex;
+  padding-right: 2%
+}
