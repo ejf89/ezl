@@ -11,7 +11,7 @@ class ComingSoon extends Component {
             <h1 > COMING SOON </h1>
             <img className="ezLogo" id="soonLogo" src={ezLogo} alt={"ez"}/>
             <div>
-            <Link  id="soonBack" className="nav-link" to="/"> Back</Link>
+            <Link  id="soonBack" className="nav-link" to="/"> Home</Link>
             </div>
 
 
