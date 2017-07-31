@@ -60,6 +60,17 @@ max-height: 400px;
         width: 100%;
     }
 
+    .nav-link {
+      color: black;
+      font-size: 75%;
+      font-weight: 500;
+      font-style: bold;
+    }
+
+
+
+
+
     .imgHolder img {
       object-fit:  scale-down;
       padding-top: 2vw;
