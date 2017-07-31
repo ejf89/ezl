@@ -39,11 +39,8 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="row" >
-          <div className="col-md-12" id="contact">
-            <h3>info@itsaneasylife.com</h3>
-          </div>
-        </div>
+
+          <a href="mailto:info@itsaneasylife.com" > <h3 id="contact">info@itsaneasylife.com</h3> </a>
 
 
 

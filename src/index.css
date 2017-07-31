@@ -30,6 +30,7 @@ body {
 
 #contact {
   margin: 5% 38%;
+  color: black;
 }
 
 .card{
@@ -78,7 +79,8 @@ max-height: 400px;
     }
 
     #contact {
-      margin: auto 2%;
+      margin: auto 10%;
+      color: black;
     }
 
     .navbar .nav {
