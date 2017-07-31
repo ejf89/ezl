@@ -1,5 +1,80 @@
+/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');*/
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.imgHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 30vw;
+  /*background-color: green;
+  border: 2px solid black;*/
+}
+
+.imgHolder img {
+  object-fit: contain;
+  /*flex-shrink: 0;*/
+  /*min-width: 100%;
+  min-height: 100%;*/
+  margin-bottom: 1vw;
+}
+
+#timpa {
+  height: 90%;
+}
+
+#contact {
+  margin: 5% 38%;
+}
+
+.card{
+  text-align: center;
+  margin-bottom: 1vw;
+  border: none;
+  /*display: flex;*/
+}
+
+.card img{
+  width: 100%;
+max-height: 400px;
+}
+
+#comeSoon {
+  /*background-color: green;*/
+  margin: auto 0;
+  text-align: center;
+}
+
+#soonBack {
+  padding-top: 6vw;
+}
+
+@media screen and (max-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of less than 800px*/
+    body {
+        /*background-color: yellow;*/
+        width: 100%;
+    }
+
+    .imgHolder img {
+      object-fit:  scale-down;
+      padding-top: 2vw;
+      margin-bottom: 1vw;
+    }
+
+    #contact {
+      margin: auto 2%;
+    }
+
+    .navbar .nav {
+      margin: 0;
+      display: block;
+      width: 100%;
+      padding-bottom: 35px;
+    }
+
 }

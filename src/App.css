@@ -1,33 +1,54 @@
-
-
 .navbar .nav {
-    margin: 0;
-    display: table;
-    width: 100%;
-    padding-bottom: 35px;
+  margin: 0;
+  display: table;
+  width: 100%;
+  padding-bottom: 35px;
 }
 
 .navbar .nav > li {
-    display: table-cell;
-    width: 1%;
-    float: none;
-    text-align: center;
+  display: table-cell;
+  width: 1%;
+  float: none;
+  text-align: center;
 }
 
 .nav-link {
-    color: black;
-    font-size: 175%;
-    font-weight: 500;
-    font-style: bold;
+  color: black;
+  font-size: 175%;
+  font-weight: 500;
+  font-style: bold;
+}
+
+
+
+@keyframes bouncing {
+    0% {
+        top: 0;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 0;
+    }
+    75% {
+        top: 100px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+#dropDiv{
+    animation-name: bouncing;
 }
 
 .middle {
-    color: black;
-    font-size: 175%;
-    font-weight: 500;
-    padding-left: 18.5%;
+  color: black;
+  font-size: 175%;
+  font-weight: 500;
+  padding-left: 18.5%;
 }
-
 
 #ezTitle{
   margin: 0 auto;
@@ -42,4 +63,8 @@
   height: auto;
   display: flex;
   padding-right: 2%
+}
+
+#soonLogo {
+  padding-top: 4vw;
 }
