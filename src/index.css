@@ -26,6 +26,12 @@ body {
 
 #timpa {
   height: 90%;
+  max-width: 498.75px;
+}
+
+#laden {
+  /*height: 90%;*/
+  max-width: 498.75px;
 }
 
 #contact {

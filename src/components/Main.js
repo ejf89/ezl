@@ -8,14 +8,11 @@ import Home from './Home'
 
 
 class Main extends Component {
-  constructor(){
-    super()
-  }
 
   render(){
     return(
       <div className="container-fluid">
-        <NavBar title="EasyLife" style="" />
+        <NavBar title="EasyLife"  />
 
       <Switch >
         <Route exact path='/' render={() => <Home />} />

@@ -31,7 +31,7 @@ class Home extends Component {
           <div className="col-md-5 card">
             <div className="card-block">
               <h4 className="card-title">LA Timpa</h4>
-                <img id="" src={require('../images/timpa_good.jpg')} alt="timpa" />
+                <img id="timpa" src={require('../images/timpa_good.jpg')} alt="timpa" />
             </div>
           </div>
 
