@@ -16,10 +16,7 @@ class Main extends Component {
 
       <Switch >
         <Route exact path='/' render={() => <Home />} />
-
-
-
-        <Route path='/studio' render={() => <ComingSoon />}/>
+        <Route path='/studio' component={() => window.location = 'https://www.instagram.com/easy_life_studio/'}/>
         <Route path='/label' render={() => <ComingSoon />}/>
         <Route path='/producers' render={() => <ComingSoon />}/>
         <Route path='/info' render={() => <ComingSoon />}/>

@@ -3,10 +3,6 @@ import { withRouter} from 'react-router-dom'
 import Stamp from './Stamp'
 
 class Home extends Component {
-  // constructor(){
-  //   super()
-  // }
-
 
 
   render(){
@@ -24,14 +20,18 @@ class Home extends Component {
           <div className="col-md-5 card">
             <div className="card-block">
                 <h4 className="card-title">Cold Specks</h4>
-                  <a href="http://coldspecks.com/"><img id="laden" src={require('../images/ColdSpeck_sm.jpg')} alt="laden" /></a>
+                  <a href="http://coldspecks.com/">
+                    <img id="laden" src={require('../images/LADAN-PRESS.jpg')} alt="laden" />
+                  </a>
               </div>
           </div>
 
           <div className="col-md-5 card">
             <div className="card-block">
               <h4 className="card-title">LA Timpa</h4>
-                <img id="timpa" src={require('../images/timpa_good.jpg')} alt="timpa" />
+              <a href="http://asklatimpa.com">
+                <img id="timpa" src={require('../images/TIMPA-PRESScrop.jpg')} alt="timpa" />
+              </a>
             </div>
           </div>
 

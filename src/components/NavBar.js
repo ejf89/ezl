@@ -8,7 +8,7 @@ const NavBar = ({style, title}) => (
               <li><Link  className="nav-link" to="/studio">Studio</Link></li>
               <li><Link className="nav-link" to="/Label">Label</Link></li>
               <li><Link className="nav-link middle"  to="/Producers">Producers</Link></li>
-              <li><Link className="nav-link" to="/Info">Info</Link></li>
+              <li><Link className="nav-link" to="/Info">PR</Link></li>
               <li><Link className="nav-link" to="/Management">Management</Link></li>
           </ul>
 
